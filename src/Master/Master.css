@@ -1,0 +1,75 @@
+
+.customTextField {
+    margin-bottom: 15px;
+  
+  }
+  
+  .customInput {
+    color: black;
+    height: 39px;
+    padding: 5px;
+  }
+  .inputRoot {
+    margin: 5px 0;
+  }
+  .add-prod{
+    background-color: rgb(91, 3, 64) !important;
+    transition: transform 10s ease-in-out !important;
+    transform: scale(1.05) !important; 
+
+  }
+  .add-prod:hover{
+    transform: scale(1.05) !important; 
+    animation: fadeOut 0.2s ease-in-out; 
+ 
+  }
+  .fade-in {
+    animation: fadeIn(3000) !important; 
+  }.buttons1{
+    background-color: #560753 !important;
+  }
+  .add-prods{
+    background-color: #0199b4 !important;
+  }
+  .add-prodss{
+    background-color: #081f12 !important;
+    width: 200px !important;
+  }
+  .paperbg{
+    background-color: #fff2d0 !important;
+    /*background-color: #fdf6cc !important;*/
+  }
+/* styles.css */
+.schema-button {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: rgb(227, 212, 123) !important;
+
+}
+.cate-btn{
+  text-transform: capitalize !important;
+  background-color:#f8c135 !important;
+  color: #D72122!important;
+
+}
+.cate{
+  color: #D72122!important;
+  font-size: 13px !important;
+
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 2;
+  }
+}
+
+.animated-paper {
+  animation: fadeIn 2s ease-in-out; 
+
+}
+
+
